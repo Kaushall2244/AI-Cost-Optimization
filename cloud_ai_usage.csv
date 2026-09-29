@@ -1,0 +1,721 @@
+record_id,date,provider,category,service,resource,team,region,instance_type,model,usage_hours,utilization_percent,requests,input_tokens,output_tokens,unit_cost,input_cost,output_cost,total_cost
+CR0001,2026-07-01,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,12.26,56.84,,,,2,,,23.5
+CR0002,2026-07-01,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,18.95,51.61,,,,2,,,37.89
+CR0003,2026-07-01,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,17.27,64.5,,,,0.12,,,2.07
+CR0004,2026-07-01,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,18.16,66.28,,,,0.12,,,2.18
+CR0005,2026-07-01,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,13.98,51.25,,,,0.24,,,3.36
+CR0006,2026-07-01,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,16.98,61.61,,,,0.24,,,4.08
+CR0007,2026-07-01,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,22.1,80.67,,,,0.18,,,3.98
+CR0008,2026-07-01,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,10.33,48.43,,,,0.12,,,1.24
+CR0009,2026-07-02,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,12.31,57.24,,,,2,,,24.62
+CR0010,2026-07-02,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,19.11,47.81,,,,2,,,38.21
+CR0011,2026-07-02,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,19.74,68.08,,,,0.12,,,2.37
+CR0012,2026-07-02,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,19.54,67.16,,,,0.12,,,2.34
+CR0013,2026-07-02,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,13.58,53.45,,,,0.24,,,3.26
+CR0014,2026-07-02,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,16.6,59.7,,,,0.24,,,3.98
+CR0015,2026-07-02,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,22.64,76.55,,,,0.18,,,4.07
+CR0016,2026-07-02,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,11.5,50.31,,,,0.12,,,1.38
+CR0017,2026-07-03,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,11.57,57.96,,,,2,,,23.14
+CR0018,2026-07-03,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,18.78,52.34,,,,2,,,37.55
+CR0019,2026-07-03,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,19.84,67.16,,,,0.12,,,2.38
+CR0020,2026-07-03,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,16.96,71.54,,,,0.12,,,2.04
+CR0021,2026-07-03,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,14.73,57.39,,,,0.24,,,3.53
+CR0022,2026-07-03,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,15.25,59.08,,,,0.24,,,3.66
+CR0023,2026-07-03,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,22.18,75.29,,,,0.18,,,3.99
+CR0024,2026-07-03,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,10.61,52.93,,,,0.12,,,1.27
+CR0025,2026-07-04,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,9.8,62.34,,,,2,,,19.61
+CR0026,2026-07-04,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,14.32,50.42,,,,2,,,28.65
+CR0027,2026-07-04,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,14.01,70.16,,,,0.12,,,1.68
+CR0028,2026-07-04,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,13.58,64.52,,,,0.12,,,1.63
+CR0029,2026-07-04,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,10.71,61.58,,,,0.24,,,2.57
+CR0030,2026-07-04,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,11.72,62.49,,,,0.24,,,2.81
+CR0031,2026-07-04,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,15.14,72.02,,,,0.18,,,2.72
+CR0032,2026-07-04,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,7.89,54.44,,,,0.12,,,0.95
+CR0033,2026-07-05,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,9.83,65.94,,,,2,,,19.65
+CR0034,2026-07-05,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,13.7,46.22,,,,2,,,27.39
+CR0035,2026-07-05,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,16.54,70.9,,,,0.12,,,1.98
+CR0036,2026-07-05,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,12.79,61.83,,,,0.12,,,1.53
+CR0037,2026-07-05,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,10.22,57.19,,,,0.24,,,2.45
+CR0038,2026-07-05,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,12.6,61.2,,,,0.24,,,3.03
+CR0039,2026-07-05,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,16.65,74.94,,,,0.18,,,3
+CR0040,2026-07-05,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,8.14,50.71,,,,0.12,,,0.98
+CR0041,2026-07-06,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,12.38,58.72,,,,2,,,24.77
+CR0042,2026-07-06,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,17.54,46.53,,,,2,,,35.09
+CR0043,2026-07-06,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,18.33,74.8,,,,0.12,,,2.2
+CR0044,2026-07-06,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,17.41,68.07,,,,0.12,,,2.09
+CR0045,2026-07-06,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,14.47,56.96,,,,0.24,,,3.47
+CR0046,2026-07-06,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,16.75,57.54,,,,0.24,,,4.02
+CR0047,2026-07-06,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,21.35,73.53,,,,0.18,,,3.84
+CR0048,2026-07-06,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,8.82,45.98,,,,0.12,,,1.06
+CR0049,2026-07-07,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,10.89,57.05,,,,2,,,21.78
+CR0050,2026-07-07,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,18.5,44.52,,,,2,,,37.01
+CR0051,2026-07-07,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,19.47,79.48,,,,0.12,,,2.34
+CR0052,2026-07-07,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,17.55,72.01,,,,0.12,,,2.11
+CR0053,2026-07-07,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,13.09,54.1,,,,0.24,,,3.14
+CR0054,2026-07-07,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,14.94,56.43,,,,0.24,,,3.58
+CR0055,2026-07-07,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,23.29,63.77,,,,0.18,,,4.19
+CR0056,2026-07-07,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,10.3,52.99,,,,0.12,,,1.24
+CR0057,2026-07-08,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,11.5,54.83,,,,2,,,23
+CR0058,2026-07-08,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,18.09,45.97,,,,2,,,36.18
+CR0059,2026-07-08,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,20.33,72.13,,,,0.12,,,2.44
+CR0060,2026-07-08,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,20.02,66.7,,,,0.12,,,2.4
+CR0061,2026-07-08,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,13,55.79,,,,0.24,,,3.12
+CR0062,2026-07-08,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,16.25,64.31,,,,0.24,,,3.9
+CR0063,2026-07-08,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,23.29,76.11,,,,0.18,,,4.19
+CR0064,2026-07-08,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,11.02,47.05,,,,0.12,,,1.32
+CR0065,2026-07-09,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,11.46,57.4,,,,2,,,22.93
+CR0066,2026-07-09,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,17.51,42.71,,,,2,,,35.02
+CR0067,2026-07-09,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,20.89,70.72,,,,0.12,,,2.51
+CR0068,2026-07-09,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,16.15,62.48,,,,0.12,,,1.94
+CR0069,2026-07-09,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,14.31,58.69,,,,0.24,,,3.43
+CR0070,2026-07-09,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,18.24,71.52,,,,0.24,,,4.38
+CR0071,2026-07-09,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,22.64,68.14,,,,0.18,,,4.07
+CR0072,2026-07-09,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,8.51,53.11,,,,0.12,,,1.02
+CR0073,2026-07-10,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,11.32,59.94,,,,2,,,22.63
+CR0074,2026-07-10,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,17.23,47.46,,,,2,,,34.46
+CR0075,2026-07-10,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,21.49,72.9,,,,0.12,,,2.58
+CR0076,2026-07-10,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,17.8,62.37,,,,0.12,,,2.14
+CR0077,2026-07-10,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,12.36,52.86,,,,0.24,,,2.97
+CR0078,2026-07-10,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,15.94,66.2,,,,0.24,,,3.83
+CR0079,2026-07-10,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,22.2,79.82,,,,0.18,,,4
+CR0080,2026-07-10,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,9.65,47.07,,,,0.12,,,1.16
+CR0081,2026-07-11,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,8.73,58.4,,,,2,,,17.46
+CR0082,2026-07-11,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,16.13,44.85,,,,2,,,32.26
+CR0083,2026-07-11,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,16.52,66.8,,,,0.12,,,1.98
+CR0084,2026-07-11,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,14.96,70.09,,,,0.12,,,1.79
+CR0085,2026-07-11,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,10.8,54.82,,,,0.24,,,2.59
+CR0086,2026-07-11,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,11.91,60.07,,,,0.24,,,2.86
+CR0087,2026-07-11,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,16.61,66.74,,,,0.18,,,2.99
+CR0088,2026-07-11,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,7.1,52.72,,,,0.12,,,0.85
+CR0089,2026-07-12,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,10.39,62.79,,,,2,,,20.79
+CR0090,2026-07-12,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,13.92,49.1,,,,2,,,27.85
+CR0091,2026-07-12,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,17.03,73.26,,,,0.12,,,2.04
+CR0092,2026-07-12,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,13.64,74.02,,,,0.12,,,1.64
+CR0093,2026-07-12,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,11.25,61.76,,,,0.24,,,2.7
+CR0094,2026-07-12,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,12.64,52.32,,,,0.24,,,3.03
+CR0095,2026-07-12,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,15.52,83.77,,,,0.18,,,2.79
+CR0096,2026-07-12,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,8.74,51.25,,,,0.12,,,1.05
+CR0097,2026-07-13,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,11.68,69.25,,,,2,,,23.36
+CR0098,2026-07-13,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,16.61,44.56,,,,2,,,33.21
+CR0099,2026-07-13,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,20.9,69.73,,,,0.12,,,2.51
+CR0100,2026-07-13,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,17.99,67.11,,,,0.12,,,2.16
+CR0101,2026-07-13,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,14.33,61.19,,,,0.24,,,3.44
+CR0102,2026-07-13,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,16.1,60.99,,,,0.24,,,3.86
+CR0103,2026-07-13,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,18.84,73.71,,,,0.18,,,3.39
+CR0104,2026-07-13,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,9.41,46.93,,,,0.12,,,1.13
+CR0105,2026-07-14,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,11.26,60.34,,,,2,,,22.52
+CR0106,2026-07-14,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,19.15,42.91,,,,2,,,38.31
+CR0107,2026-07-14,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,20.04,69.21,,,,0.12,,,2.41
+CR0108,2026-07-14,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,17.59,73.46,,,,0.12,,,2.11
+CR0109,2026-07-14,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,14.53,60.88,,,,0.24,,,3.49
+CR0110,2026-07-14,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,15.83,54.77,,,,0.24,,,3.8
+CR0111,2026-07-14,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,21.66,75.44,,,,0.18,,,3.9
+CR0112,2026-07-14,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,10.12,47.49,,,,0.12,,,1.21
+CR0113,2026-07-15,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,12.08,63.13,,,,2,,,24.15
+CR0114,2026-07-15,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,21.17,55.21,,,,2,,,42.34
+CR0115,2026-07-15,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,18.81,70.34,,,,0.12,,,2.26
+CR0116,2026-07-15,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,16.16,64.79,,,,0.12,,,1.94
+CR0117,2026-07-15,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,14.31,60.31,,,,0.24,,,3.43
+CR0118,2026-07-15,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,15.18,54.96,,,,0.24,,,3.64
+CR0119,2026-07-15,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,18.69,73.04,,,,0.18,,,3.36
+CR0120,2026-07-15,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,9.26,49.8,,,,0.12,,,1.11
+CR0121,2026-07-16,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,11.26,61.53,,,,2,,,22.53
+CR0122,2026-07-16,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,15.79,42.37,,,,2,,,31.57
+CR0123,2026-07-16,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,22.98,64.58,,,,0.12,,,2.76
+CR0124,2026-07-16,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,16.62,77.99,,,,0.12,,,1.99
+CR0125,2026-07-16,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,16.85,49.85,,,,0.24,,,4.04
+CR0126,2026-07-16,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,15.59,59.58,,,,0.24,,,3.74
+CR0127,2026-07-16,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,24.66,68.16,,,,0.18,,,4.44
+CR0128,2026-07-16,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,9.83,55.23,,,,0.12,,,1.18
+CR0129,2026-07-17,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,12.37,60.13,,,,2,,,24.73
+CR0130,2026-07-17,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,17.83,42.72,,,,2,,,35.66
+CR0131,2026-07-17,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,19.67,70.47,,,,0.12,,,2.36
+CR0132,2026-07-17,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,18.29,64.98,,,,0.12,,,2.2
+CR0133,2026-07-17,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,14.46,59.46,,,,0.24,,,3.47
+CR0134,2026-07-17,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,16.17,59.63,,,,0.24,,,3.88
+CR0135,2026-07-17,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,22.08,74,,,,0.18,,,3.97
+CR0136,2026-07-17,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,9.49,53.32,,,,0.12,,,1.14
+CR0137,2026-07-18,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,9.3,72.38,,,,2,,,18.59
+CR0138,2026-07-18,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,15.59,49.48,,,,2,,,31.17
+CR0139,2026-07-18,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,14.77,65.59,,,,0.12,,,1.77
+CR0140,2026-07-18,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,15.21,69.43,,,,0.12,,,1.83
+CR0141,2026-07-18,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,11.29,47.32,,,,0.24,,,2.71
+CR0142,2026-07-18,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,13.29,60.11,,,,0.24,,,3.19
+CR0143,2026-07-18,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,15.83,71.21,,,,0.18,,,2.85
+CR0144,2026-07-18,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,7.94,52.22,,,,0.12,,,0.95
+CR0145,2026-07-19,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,9.17,61.49,,,,2,,,18.34
+CR0146,2026-07-19,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,13.79,48.59,,,,2,,,27.58
+CR0147,2026-07-19,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,17.21,57.22,,,,0.12,,,2.06
+CR0148,2026-07-19,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,13.81,68.96,,,,0.12,,,1.66
+CR0149,2026-07-19,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,11.15,53.36,,,,0.24,,,2.68
+CR0150,2026-07-19,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,10.95,59.52,,,,0.24,,,2.63
+CR0151,2026-07-19,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,19.23,64.92,,,,0.18,,,3.46
+CR0152,2026-07-19,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,8.27,50.63,,,,0.12,,,0.99
+CR0153,2026-07-20,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,11.95,56.78,,,,2,,,23.9
+CR0154,2026-07-20,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,17.58,52.99,,,,2,,,35.16
+CR0155,2026-07-20,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,20.82,81.98,,,,0.12,,,2.5
+CR0156,2026-07-20,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,19.48,70.39,,,,0.12,,,2.34
+CR0157,2026-07-20,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,15.71,56.93,,,,0.24,,,3.77
+CR0158,2026-07-20,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,16.93,56.62,,,,0.24,,,4.06
+CR0159,2026-07-20,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,22.1,69.87,,,,0.18,,,3.98
+CR0160,2026-07-20,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,10.69,47.1,,,,0.12,,,1.28
+CR0161,2026-07-21,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,12.66,61.05,,,,2,,,25.31
+CR0162,2026-07-21,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,19.48,50.88,,,,2,,,38.95
+CR0163,2026-07-21,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,22.55,76.21,,,,0.12,,,2.71
+CR0164,2026-07-21,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,16.02,67.64,,,,0.12,,,1.92
+CR0165,2026-07-21,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,12.85,52.72,,,,0.24,,,3.08
+CR0166,2026-07-21,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,17.69,60.96,,,,0.24,,,4.25
+CR0167,2026-07-21,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,20.92,68,,,,0.18,,,3.77
+CR0168,2026-07-21,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,10.02,46.94,,,,0.12,,,1.2
+CR0169,2026-07-22,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,11.44,63.55,,,,2,,,22.87
+CR0170,2026-07-22,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,19.46,50.34,,,,2,,,38.91
+CR0171,2026-07-22,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,16.79,73.75,,,,0.12,,,2.02
+CR0172,2026-07-22,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,18.09,70.25,,,,0.12,,,2.17
+CR0173,2026-07-22,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,15.58,45.92,,,,0.24,,,3.74
+CR0174,2026-07-22,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,15.34,60.74,,,,0.24,,,3.68
+CR0175,2026-07-22,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,19.56,82.74,,,,0.18,,,3.52
+CR0176,2026-07-22,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,10.26,55.52,,,,0.12,,,1.23
+CR0177,2026-07-23,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,11.52,66.04,,,,2,,,23.04
+CR0178,2026-07-23,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,19.35,48.89,,,,2,,,38.69
+CR0179,2026-07-23,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,20.33,73.56,,,,0.12,,,2.44
+CR0180,2026-07-23,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,16.91,67.2,,,,0.12,,,2.03
+CR0181,2026-07-23,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,13.85,56.69,,,,0.24,,,3.32
+CR0182,2026-07-23,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,17.12,53.09,,,,0.24,,,4.11
+CR0183,2026-07-23,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,21.81,82.77,,,,0.18,,,3.93
+CR0184,2026-07-23,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,9.48,48.58,,,,0.12,,,1.14
+CR0185,2026-07-24,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,12.17,66.19,,,,2,,,24.34
+CR0186,2026-07-24,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,18.01,53.1,,,,2,,,36.03
+CR0187,2026-07-24,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,21.2,76.85,,,,0.12,,,2.54
+CR0188,2026-07-24,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,18.7,80.66,,,,0.12,,,2.24
+CR0189,2026-07-24,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,13.8,46.18,,,,0.24,,,3.31
+CR0190,2026-07-24,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,17.8,55.88,,,,0.24,,,4.27
+CR0191,2026-07-24,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,22.17,81.75,,,,0.18,,,3.99
+CR0192,2026-07-24,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,8.88,46.79,,,,0.12,,,1.07
+CR0193,2026-07-25,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,8.31,58.06,,,,2,,,16.62
+CR0194,2026-07-25,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,14.47,50.01,,,,2,,,28.94
+CR0195,2026-07-25,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,15.9,63.86,,,,0.12,,,1.91
+CR0196,2026-07-25,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,11.77,68.3,,,,0.12,,,1.41
+CR0197,2026-07-25,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,10.56,57.02,,,,0.24,,,2.53
+CR0198,2026-07-25,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,13.09,58.64,,,,0.24,,,3.14
+CR0199,2026-07-25,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,18.07,75.36,,,,0.18,,,3.25
+CR0200,2026-07-25,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,8.09,49.07,,,,0.12,,,0.97
+CR0201,2026-07-26,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,9.24,62.98,,,,2,,,18.48
+CR0202,2026-07-26,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,14.85,46.49,,,,2,,,29.69
+CR0203,2026-07-26,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,16.17,70.47,,,,0.12,,,1.94
+CR0204,2026-07-26,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,13.92,72.51,,,,0.12,,,1.67
+CR0205,2026-07-26,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,9.4,49.3,,,,0.24,,,2.26
+CR0206,2026-07-26,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,11.19,47.17,,,,0.24,,,2.68
+CR0207,2026-07-26,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,16.35,78.44,,,,0.18,,,2.94
+CR0208,2026-07-26,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,7.64,52.82,,,,0.12,,,0.92
+CR0209,2026-07-27,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,12.91,68.59,,,,2,,,25.83
+CR0210,2026-07-27,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,17.91,53.2,,,,2,,,35.83
+CR0211,2026-07-27,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,20.13,67.18,,,,0.12,,,2.42
+CR0212,2026-07-27,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,17.25,59.95,,,,0.12,,,2.07
+CR0213,2026-07-27,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,13.13,53.42,,,,0.24,,,3.15
+CR0214,2026-07-27,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,16.9,65.98,,,,0.24,,,4.06
+CR0215,2026-07-27,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,19.87,76.33,,,,0.18,,,3.58
+CR0216,2026-07-27,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,9.27,53.97,,,,0.12,,,1.11
+CR0217,2026-07-28,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,11.89,52.92,,,,2,,,23.78
+CR0218,2026-07-28,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,19.17,45.68,,,,2,,,38.34
+CR0219,2026-07-28,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,19.25,65.84,,,,0.12,,,2.31
+CR0220,2026-07-28,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,17.18,70.33,,,,0.12,,,2.06
+CR0221,2026-07-28,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,13.81,56.45,,,,0.24,,,3.32
+CR0222,2026-07-28,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,16.41,64.13,,,,0.24,,,3.94
+CR0223,2026-07-28,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,21.47,65.26,,,,0.18,,,3.86
+CR0224,2026-07-28,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,10.75,50.62,,,,0.12,,,1.29
+CR0225,2026-07-29,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,12.94,63.9,,,,2,,,25.87
+CR0226,2026-07-29,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,17.83,49.34,,,,2,,,35.67
+CR0227,2026-07-29,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,22.73,83.96,,,,0.12,,,2.73
+CR0228,2026-07-29,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,18.09,68.87,,,,0.12,,,2.17
+CR0229,2026-07-29,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,15.05,51.28,,,,0.24,,,3.61
+CR0230,2026-07-29,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,16.37,57.88,,,,0.24,,,3.93
+CR0231,2026-07-29,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,22.48,69.07,,,,0.18,,,4.05
+CR0232,2026-07-29,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,8.89,43.38,,,,0.12,,,1.07
+CR0233,2026-07-30,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,11.06,59.72,,,,2,,,22.12
+CR0234,2026-07-30,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,17.63,55.44,,,,2,,,35.26
+CR0235,2026-07-30,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,21.55,66.46,,,,0.12,,,2.59
+CR0236,2026-07-30,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,18.44,65.79,,,,0.12,,,2.21
+CR0237,2026-07-30,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,13.72,55.82,,,,0.24,,,3.29
+CR0238,2026-07-30,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,16.69,56.43,,,,0.24,,,4.01
+CR0239,2026-07-30,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,23.64,67.24,,,,0.18,,,4.25
+CR0240,2026-07-30,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,10,62.81,,,,0.12,,,1.2
+CR0241,2026-07-31,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,12.19,69.11,,,,2,,,24.37
+CR0242,2026-07-31,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,18.12,50.23,,,,2,,,36.23
+CR0243,2026-07-31,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,19.92,71.02,,,,0.12,,,2.39
+CR0244,2026-07-31,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,17.02,70.34,,,,0.12,,,2.04
+CR0245,2026-07-31,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,13.17,57.93,,,,0.24,,,3.16
+CR0246,2026-07-31,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,17.22,59.7,,,,0.24,,,4.13
+CR0247,2026-07-31,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,21.56,76.69,,,,0.18,,,3.88
+CR0248,2026-07-31,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,9.78,55.89,,,,0.12,,,1.17
+CR0249,2026-08-01,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,8.16,60.34,,,,2,,,16.32
+CR0250,2026-08-01,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,12.08,42.26,,,,2,,,24.17
+CR0251,2026-08-01,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,17.09,77.16,,,,0.12,,,2.05
+CR0252,2026-08-01,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,13.33,59.83,,,,0.12,,,1.6
+CR0253,2026-08-01,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,8.65,52.61,,,,0.24,,,2.08
+CR0254,2026-08-01,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,14.59,60.02,,,,0.24,,,3.5
+CR0255,2026-08-01,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,16.49,76.75,,,,0.18,,,2.97
+CR0256,2026-08-01,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,6.95,50.76,,,,0.12,,,0.83
+CR0257,2026-08-02,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,9.43,61.57,,,,2,,,18.85
+CR0258,2026-08-02,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,14.82,49.32,,,,2,,,29.63
+CR0259,2026-08-02,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,16.33,68.03,,,,0.12,,,1.96
+CR0260,2026-08-02,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,14.92,76.86,,,,0.12,,,1.79
+CR0261,2026-08-02,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,10.18,51.09,,,,0.24,,,2.44
+CR0262,2026-08-02,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,13.65,57.11,,,,0.24,,,3.28
+CR0263,2026-08-02,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,18.85,71.38,,,,0.18,,,3.39
+CR0264,2026-08-02,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,8.59,52.55,,,,0.12,,,1.03
+CR0265,2026-08-03,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,12.22,69.76,,,,2,,,24.43
+CR0266,2026-08-03,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,17.54,44.39,,,,2,,,35.09
+CR0267,2026-08-03,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,19.37,74.61,,,,0.12,,,2.32
+CR0268,2026-08-03,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,16.03,71.47,,,,0.12,,,1.92
+CR0269,2026-08-03,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,13.47,60.05,,,,0.24,,,3.23
+CR0270,2026-08-03,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,13.32,54.35,,,,0.24,,,3.2
+CR0271,2026-08-03,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,19.4,69.11,,,,0.18,,,3.49
+CR0272,2026-08-03,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,10.17,51.25,,,,0.12,,,1.22
+CR0273,2026-08-04,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,48,18,,,,2,,,96
+CR0274,2026-08-04,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,18.26,44.13,,,,2,,,36.51
+CR0275,2026-08-04,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,20.99,75.82,,,,0.12,,,2.52
+CR0276,2026-08-04,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,18.49,71.03,,,,0.12,,,2.22
+CR0277,2026-08-04,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,14.29,63.95,,,,0.24,,,3.43
+CR0278,2026-08-04,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,15.9,56.58,,,,0.24,,,3.82
+CR0279,2026-08-04,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,20.84,67.89,,,,0.18,,,3.75
+CR0280,2026-08-04,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,9.13,48.3,,,,0.12,,,1.1
+CR0281,2026-08-05,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,11.94,63.66,,,,2,,,23.88
+CR0282,2026-08-05,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,18.06,45.06,,,,2,,,36.13
+CR0283,2026-08-05,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,21.26,76.26,,,,0.12,,,2.55
+CR0284,2026-08-05,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,17.8,64.45,,,,0.12,,,2.14
+CR0285,2026-08-05,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,14.54,55.83,,,,0.24,,,3.49
+CR0286,2026-08-05,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,14.38,57.68,,,,0.24,,,3.45
+CR0287,2026-08-05,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,22.4,68.67,,,,0.18,,,4.03
+CR0288,2026-08-05,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,10.13,45.95,,,,0.12,,,1.22
+CR0289,2026-08-06,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,13.12,68.19,,,,2,,,26.24
+CR0290,2026-08-06,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,17.68,49.4,,,,2,,,35.36
+CR0291,2026-08-06,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,16.63,65.34,,,,0.12,,,2
+CR0292,2026-08-06,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,17.63,62.17,,,,0.12,,,2.12
+CR0293,2026-08-06,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,14.7,63.79,,,,0.24,,,3.53
+CR0294,2026-08-06,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,14.68,54.11,,,,0.24,,,3.52
+CR0295,2026-08-06,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,22.36,83.54,,,,0.18,,,4.03
+CR0296,2026-08-06,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,9.14,53.04,,,,0.12,,,1.1
+CR0297,2026-08-07,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,13.53,53.81,,,,2,,,27.06
+CR0298,2026-08-07,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,16.39,46.37,,,,2,,,32.77
+CR0299,2026-08-07,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,19.27,76.68,,,,0.12,,,2.31
+CR0300,2026-08-07,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,18.3,58.34,,,,0.12,,,2.2
+CR0301,2026-08-07,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,14.51,52.46,,,,0.24,,,3.48
+CR0302,2026-08-07,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,17.43,55.09,,,,0.24,,,4.18
+CR0303,2026-08-07,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,21.02,77.2,,,,0.18,,,3.78
+CR0304,2026-08-07,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,10.53,53.86,,,,0.12,,,1.26
+CR0305,2026-08-08,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,8.26,64.67,,,,2,,,16.51
+CR0306,2026-08-08,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,13.02,48.9,,,,2,,,26.05
+CR0307,2026-08-08,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,14.05,74.57,,,,0.12,,,1.69
+CR0308,2026-08-08,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,13.25,61.02,,,,0.12,,,1.59
+CR0309,2026-08-08,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,11.47,56.06,,,,0.24,,,2.75
+CR0310,2026-08-08,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,11.94,64.73,,,,0.24,,,2.87
+CR0311,2026-08-08,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,16.63,74.19,,,,0.18,,,2.99
+CR0312,2026-08-08,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,7.95,49.42,,,,0.12,,,0.95
+CR0313,2026-08-09,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,9.67,59.35,,,,2,,,19.34
+CR0314,2026-08-09,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,13.64,53.23,,,,2,,,27.27
+CR0315,2026-08-09,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,14.46,58.1,,,,0.12,,,1.74
+CR0316,2026-08-09,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,15.62,81.87,,,,0.12,,,1.87
+CR0317,2026-08-09,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,10.61,46.48,,,,0.24,,,2.55
+CR0318,2026-08-09,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,12.21,56.67,,,,0.24,,,2.93
+CR0319,2026-08-09,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,16.93,67.41,,,,0.18,,,3.05
+CR0320,2026-08-09,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,8.12,54.18,,,,0.12,,,0.97
+CR0321,2026-08-10,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,10.74,65.47,,,,2,,,21.49
+CR0322,2026-08-10,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,24,14,,,,2,,,48
+CR0323,2026-08-10,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,19.53,71.18,,,,0.12,,,2.34
+CR0324,2026-08-10,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,18.78,58.59,,,,0.12,,,2.25
+CR0325,2026-08-10,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,14.16,53.28,,,,0.24,,,3.4
+CR0326,2026-08-10,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,18.07,57.19,,,,0.24,,,4.34
+CR0327,2026-08-10,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,24.57,67.47,,,,0.18,,,4.42
+CR0328,2026-08-10,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,10.41,53.33,,,,0.12,,,1.25
+CR0329,2026-08-11,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,11.27,62.88,,,,2,,,22.54
+CR0330,2026-08-11,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,24,14,,,,2,,,48
+CR0331,2026-08-11,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,17.63,71.9,,,,0.12,,,2.12
+CR0332,2026-08-11,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,16.86,66.14,,,,0.12,,,2.02
+CR0333,2026-08-11,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,13.92,47.5,,,,0.24,,,3.34
+CR0334,2026-08-11,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,14.19,60.24,,,,0.24,,,3.41
+CR0335,2026-08-11,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,21.2,58.82,,,,0.18,,,3.82
+CR0336,2026-08-11,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,10.55,53.13,,,,0.12,,,1.27
+CR0337,2026-08-12,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,11.4,55.47,,,,2,,,22.8
+CR0338,2026-08-12,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,24,14,,,,2,,,48
+CR0339,2026-08-12,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,23.34,74.42,,,,0.12,,,2.8
+CR0340,2026-08-12,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,18.49,67.09,,,,0.12,,,2.22
+CR0341,2026-08-12,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,14.8,57.75,,,,0.24,,,3.55
+CR0342,2026-08-12,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,17.4,55.58,,,,0.24,,,4.18
+CR0343,2026-08-12,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,21.33,71.16,,,,0.18,,,3.84
+CR0344,2026-08-12,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,22,21,,,,0.12,,,2.64
+CR0345,2026-08-13,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,11.61,59.89,,,,2,,,23.23
+CR0346,2026-08-13,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,24,14,,,,2,,,48
+CR0347,2026-08-13,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,21.33,59.03,,,,0.12,,,2.56
+CR0348,2026-08-13,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,16.96,63.74,,,,0.12,,,2.04
+CR0349,2026-08-13,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,11.73,50.76,,,,0.24,,,2.81
+CR0350,2026-08-13,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,14.98,57.07,,,,0.24,,,3.59
+CR0351,2026-08-13,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,23.71,72.55,,,,0.18,,,4.27
+CR0352,2026-08-13,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,9.28,51.76,,,,0.12,,,1.11
+CR0353,2026-08-14,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,12.88,57.16,,,,2,,,25.76
+CR0354,2026-08-14,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,24,14,,,,2,,,48
+CR0355,2026-08-14,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,19.69,75.73,,,,0.12,,,2.36
+CR0356,2026-08-14,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,17.98,71.82,,,,0.12,,,2.16
+CR0357,2026-08-14,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,12.99,54.95,,,,0.24,,,3.12
+CR0358,2026-08-14,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,15.76,52.36,,,,0.24,,,3.78
+CR0359,2026-08-14,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,19.59,78.06,,,,0.18,,,3.53
+CR0360,2026-08-14,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,9.75,47.75,,,,0.12,,,1.17
+CR0361,2026-08-15,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,9.3,67.59,,,,2,,,18.59
+CR0362,2026-08-15,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,24,14,,,,2,,,48
+CR0363,2026-08-15,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,14.59,80.42,,,,0.12,,,1.75
+CR0364,2026-08-15,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,14.32,72.17,,,,0.12,,,1.72
+CR0365,2026-08-15,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,10.05,50.07,,,,0.24,,,2.41
+CR0366,2026-08-15,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,12.87,58.27,,,,0.24,,,3.09
+CR0367,2026-08-15,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,17.82,72.89,,,,0.18,,,3.21
+CR0368,2026-08-15,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,7.95,52.66,,,,0.12,,,0.95
+CR0369,2026-08-16,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,9.87,66,,,,2,,,19.74
+CR0370,2026-08-16,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,24,14,,,,2,,,48
+CR0371,2026-08-16,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,16.69,78.84,,,,0.12,,,2
+CR0372,2026-08-16,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,13.04,57.88,,,,0.12,,,1.56
+CR0373,2026-08-16,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,11,59.1,,,,0.24,,,2.64
+CR0374,2026-08-16,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,14.05,60.4,,,,0.24,,,3.37
+CR0375,2026-08-16,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,16.71,68.71,,,,0.18,,,3.01
+CR0376,2026-08-16,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,7.81,50.76,,,,0.12,,,0.94
+CR0377,2026-08-17,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,11.15,72.16,,,,2,,,22.29
+CR0378,2026-08-17,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,20.25,52.36,,,,2,,,40.5
+CR0379,2026-08-17,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,18.71,76.92,,,,0.12,,,2.25
+CR0380,2026-08-17,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,18.81,70.41,,,,0.12,,,2.26
+CR0381,2026-08-17,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,15.22,57.8,,,,0.24,,,3.65
+CR0382,2026-08-17,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,16.83,60.96,,,,0.24,,,4.04
+CR0383,2026-08-17,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,22.52,63.44,,,,0.18,,,4.05
+CR0384,2026-08-17,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,10.06,49.69,,,,0.12,,,1.21
+CR0385,2026-08-18,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,10.92,70.34,,,,2,,,21.85
+CR0386,2026-08-18,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,20.18,53.22,,,,2,,,40.36
+CR0387,2026-08-18,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,20.36,79.78,,,,0.12,,,2.44
+CR0388,2026-08-18,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,18.02,69.1,,,,0.12,,,2.16
+CR0389,2026-08-18,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,12.93,56.75,,,,0.24,,,3.1
+CR0390,2026-08-18,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,16.07,51.96,,,,0.24,,,3.86
+CR0391,2026-08-18,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,21.92,73.53,,,,0.18,,,3.95
+CR0392,2026-08-18,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,11.26,55.72,,,,0.12,,,1.35
+CR0393,2026-08-19,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,12.01,63.23,,,,2,,,24.02
+CR0394,2026-08-19,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,18.06,47.22,,,,2,,,36.11
+CR0395,2026-08-19,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,18.48,71.13,,,,0.12,,,2.22
+CR0396,2026-08-19,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,17.06,61.2,,,,0.12,,,2.05
+CR0397,2026-08-19,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,14.5,56.72,,,,0.24,,,3.48
+CR0398,2026-08-19,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,14,57.43,,,,0.24,,,3.36
+CR0399,2026-08-19,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,23.53,80.27,,,,0.18,,,4.24
+CR0400,2026-08-19,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,10.72,52.16,,,,0.12,,,1.29
+CR0401,2026-08-20,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,11.29,56.62,,,,2,,,22.58
+CR0402,2026-08-20,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,18.43,49.46,,,,2,,,36.87
+CR0403,2026-08-20,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,21.8,78.34,,,,0.12,,,2.62
+CR0404,2026-08-20,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,17.83,61.23,,,,0.12,,,2.14
+CR0405,2026-08-20,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,13.69,55.96,,,,0.24,,,3.28
+CR0406,2026-08-20,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,15.77,55.32,,,,0.24,,,3.79
+CR0407,2026-08-20,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,22.39,71.02,,,,0.18,,,4.03
+CR0408,2026-08-20,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,9.56,53.3,,,,0.12,,,1.15
+CR0409,2026-08-21,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,11.66,63.21,,,,2,,,23.32
+CR0410,2026-08-21,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,18.34,43.62,,,,2,,,36.69
+CR0411,2026-08-21,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,19.33,80.28,,,,0.12,,,2.32
+CR0412,2026-08-21,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,16.54,56.49,,,,0.12,,,1.98
+CR0413,2026-08-21,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,12.18,55.13,,,,0.24,,,2.92
+CR0414,2026-08-21,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,16.03,57.45,,,,0.24,,,3.85
+CR0415,2026-08-21,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,23.87,58.18,,,,0.18,,,4.3
+CR0416,2026-08-21,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,10.28,58.5,,,,0.12,,,1.23
+CR0417,2026-08-22,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,8.62,60.12,,,,2,,,17.24
+CR0418,2026-08-22,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,13.3,44.57,,,,2,,,26.6
+CR0419,2026-08-22,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,15.24,80.22,,,,0.12,,,1.83
+CR0420,2026-08-22,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,15.85,66.17,,,,0.12,,,1.9
+CR0421,2026-08-22,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,12.38,55.16,,,,0.24,,,2.97
+CR0422,2026-08-22,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,14.01,57.57,,,,0.24,,,3.36
+CR0423,2026-08-22,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,17.32,76.16,,,,0.18,,,3.12
+CR0424,2026-08-22,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,9.54,55.54,,,,0.12,,,1.14
+CR0425,2026-08-23,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,8.9,66.81,,,,2,,,17.79
+CR0426,2026-08-23,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,13.68,46.12,,,,2,,,27.37
+CR0427,2026-08-23,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,16.59,72.18,,,,0.12,,,1.99
+CR0428,2026-08-23,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,14.31,68.08,,,,0.12,,,1.72
+CR0429,2026-08-23,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,11.18,56.87,,,,0.24,,,2.68
+CR0430,2026-08-23,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,10.79,61.09,,,,0.24,,,2.59
+CR0431,2026-08-23,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,15.98,65.46,,,,0.18,,,2.88
+CR0432,2026-08-23,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,7.77,52.35,,,,0.12,,,0.93
+CR0433,2026-08-24,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,11.42,66.12,,,,2,,,22.83
+CR0434,2026-08-24,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,16.31,46.44,,,,2,,,32.62
+CR0435,2026-08-24,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,19.18,71.73,,,,0.12,,,2.3
+CR0436,2026-08-24,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,18.35,62.52,,,,0.12,,,2.2
+CR0437,2026-08-24,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,14.71,55.28,,,,0.24,,,3.53
+CR0438,2026-08-24,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,13.88,48.91,,,,0.24,,,3.33
+CR0439,2026-08-24,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,21.98,72.69,,,,0.18,,,3.96
+CR0440,2026-08-24,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,9.93,51.88,,,,0.12,,,1.19
+CR0441,2026-08-25,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,12.19,66.7,,,,2,,,24.38
+CR0442,2026-08-25,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,16.6,43.5,,,,2,,,33.2
+CR0443,2026-08-25,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,18.47,73.66,,,,0.12,,,2.22
+CR0444,2026-08-25,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,19.57,65.65,,,,0.12,,,2.35
+CR0445,2026-08-25,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,11.55,47.5,,,,0.24,,,2.77
+CR0446,2026-08-25,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,15.07,55.41,,,,0.24,,,3.62
+CR0447,2026-08-25,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,21.37,74.23,,,,0.18,,,3.85
+CR0448,2026-08-25,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,9.78,56.37,,,,0.12,,,1.17
+CR0449,2026-08-26,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,11.43,57.72,,,,2,,,22.86
+CR0450,2026-08-26,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,18.6,42.1,,,,2,,,37.21
+CR0451,2026-08-26,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,20.55,72.59,,,,0.12,,,2.47
+CR0452,2026-08-26,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,17.81,76.64,,,,0.12,,,2.14
+CR0453,2026-08-26,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,13.39,64.07,,,,0.24,,,3.21
+CR0454,2026-08-26,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,15.75,52.07,,,,0.24,,,3.78
+CR0455,2026-08-26,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,22.11,67.63,,,,0.18,,,3.98
+CR0456,2026-08-26,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,9.47,53.65,,,,0.12,,,1.14
+CR0457,2026-08-27,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,12.47,58.91,,,,2,,,24.93
+CR0458,2026-08-27,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,19.24,52.44,,,,2,,,38.49
+CR0459,2026-08-27,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,22.01,75.05,,,,0.12,,,2.64
+CR0460,2026-08-27,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,19.72,57.77,,,,0.12,,,2.37
+CR0461,2026-08-27,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,13.69,51.19,,,,0.24,,,3.29
+CR0462,2026-08-27,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,16.13,55.35,,,,0.24,,,3.87
+CR0463,2026-08-27,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,21.74,85.14,,,,0.18,,,3.91
+CR0464,2026-08-27,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,9.88,53.72,,,,0.12,,,1.19
+CR0465,2026-08-28,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,11.8,62.38,,,,2,,,23.61
+CR0466,2026-08-28,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,18.01,49.72,,,,2,,,36.02
+CR0467,2026-08-28,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,21.63,81.49,,,,0.12,,,2.6
+CR0468,2026-08-28,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,18.39,71.21,,,,0.12,,,2.21
+CR0469,2026-08-28,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,12.87,54.61,,,,0.24,,,3.09
+CR0470,2026-08-28,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,17.05,62.02,,,,0.24,,,4.09
+CR0471,2026-08-28,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,22.33,79.25,,,,0.18,,,4.02
+CR0472,2026-08-28,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,10.34,56.99,,,,0.12,,,1.24
+CR0473,2026-08-29,AWS,cloud,EC2,gpu-01,AI Team,us-east-1,g5.xlarge,,9.55,60.24,,,,2,,,19.1
+CR0474,2026-08-29,AWS,cloud,EC2,gpu-02,AI Team,us-west-2,g5.xlarge,,14.37,36.75,,,,2,,,28.74
+CR0475,2026-08-29,AWS,cloud,EC2,api-prod-01,Platform Team,us-east-1,m6i.large,,16.02,50.99,,,,0.12,,,1.92
+CR0476,2026-08-29,AWS,cloud,EC2,api-prod-02,Platform Team,us-east-1,m6i.large,,12.35,70.46,,,,0.12,,,1.48
+CR0477,2026-08-29,AWS,cloud,EC2,worker-01,Data Team,eu-west-1,m6i.xlarge,,11.29,49.89,,,,0.24,,,2.71
+CR0478,2026-08-29,AWS,cloud,EC2,worker-02,Data Team,eu-west-1,m6i.xlarge,,11.86,64.36,,,,0.24,,,2.85
+CR0479,2026-08-29,AWS,cloud,EC2,db-prod-01,Platform Team,us-east-1,r6i.large,,16.58,87.28,,,,0.18,,,2.98
+CR0480,2026-08-29,AWS,cloud,EC2,etl-01,Data Team,ap-south-1,m6i.large,,7.8,53.7,,,,0.12,,,0.94
+AI0481,2026-07-01,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1345,90943,20235,,0.1819,0.1214,0.3033
+AI0482,2026-07-01,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1190,89743,19598,,0.0718,0.049,0.1208
+AI0483,2026-07-01,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1176,61140,17183,,0.0734,0.0601,0.1335
+AI0484,2026-07-01,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,903,48868,11898,,0.0244,0.0178,0.0422
+AI0485,2026-07-02,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1220,94441,20240,,0.1889,0.1214,0.3103
+AI0486,2026-07-02,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1106,97953,21274,,0.0784,0.0532,0.1316
+AI0487,2026-07-02,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1072,67307,16593,,0.0808,0.0581,0.1389
+AI0488,2026-07-02,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,762,50917,12706,,0.0255,0.0191,0.0446
+AI0489,2026-07-03,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1233,94550,19528,,0.1891,0.1172,0.3063
+AI0490,2026-07-03,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1229,87821,21150,,0.0703,0.0529,0.1232
+AI0491,2026-07-03,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1278,72692,18296,,0.0872,0.064,0.1512
+AI0492,2026-07-03,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,1018,49561,12338,,0.0248,0.0185,0.0433
+AI0493,2026-07-04,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1269,90872,22230,,0.1817,0.1334,0.3151
+AI0494,2026-07-04,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1274,89573,20716,,0.0717,0.0518,0.1235
+AI0495,2026-07-04,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1162,68296,16003,,0.082,0.056,0.138
+AI0496,2026-07-04,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,930,52680,11640,,0.0263,0.0175,0.0438
+AI0497,2026-07-05,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1268,92727,19826,,0.1855,0.119,0.3045
+AI0498,2026-07-05,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1329,86394,19087,,0.0691,0.0477,0.1168
+AI0499,2026-07-05,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1105,59690,16066,,0.0716,0.0562,0.1278
+AI0500,2026-07-05,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,875,48652,12594,,0.0243,0.0189,0.0432
+AI0501,2026-07-06,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1230,92275,22721,,0.1845,0.1363,0.3208
+AI0502,2026-07-06,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1255,74822,21358,,0.0599,0.0534,0.1133
+AI0503,2026-07-06,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1003,65187,15994,,0.0782,0.056,0.1342
+AI0504,2026-07-06,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,994,54750,12194,,0.0274,0.0183,0.0457
+AI0505,2026-07-07,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1154,93493,21070,,0.187,0.1264,0.3134
+AI0506,2026-07-07,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1199,97100,21018,,0.0777,0.0525,0.1302
+AI0507,2026-07-07,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1272,68522,14777,,0.0822,0.0517,0.1339
+AI0508,2026-07-07,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,987,52794,12097,,0.0264,0.0181,0.0445
+AI0509,2026-07-08,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1131,83813,21053,,0.1676,0.1263,0.2939
+AI0510,2026-07-08,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1248,83119,22770,,0.0665,0.0569,0.1234
+AI0511,2026-07-08,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1088,63938,16140,,0.0767,0.0565,0.1332
+AI0512,2026-07-08,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,1120,44490,13413,,0.0222,0.0201,0.0423
+AI0513,2026-07-09,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1213,92960,22208,,0.1859,0.1332,0.3191
+AI0514,2026-07-09,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1240,88893,24559,,0.0711,0.0614,0.1325
+AI0515,2026-07-09,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1158,70887,15175,,0.0851,0.0531,0.1382
+AI0516,2026-07-09,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,894,45712,12436,,0.0229,0.0187,0.0416
+AI0517,2026-07-10,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1330,89443,21653,,0.1789,0.1299,0.3088
+AI0518,2026-07-10,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1099,88349,19196,,0.0707,0.048,0.1187
+AI0519,2026-07-10,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1117,66179,17688,,0.0794,0.0619,0.1413
+AI0520,2026-07-10,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,1152,47653,13377,,0.0238,0.0201,0.0439
+AI0521,2026-07-11,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1221,88911,22761,,0.1778,0.1366,0.3144
+AI0522,2026-07-11,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1205,90794,21281,,0.0726,0.0532,0.1258
+AI0523,2026-07-11,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1074,56973,16836,,0.0684,0.0589,0.1273
+AI0524,2026-07-11,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,875,47615,12008,,0.0238,0.018,0.0418
+AI0525,2026-07-12,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1271,91298,20845,,0.1826,0.1251,0.3077
+AI0526,2026-07-12,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1310,101370,22870,,0.0811,0.0572,0.1383
+AI0527,2026-07-12,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1287,71458,17446,,0.0857,0.0611,0.1468
+AI0528,2026-07-12,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,955,52393,12498,,0.0262,0.0187,0.0449
+AI0529,2026-07-13,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1101,95045,19613,,0.1901,0.1177,0.3078
+AI0530,2026-07-13,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1128,99385,23478,,0.0795,0.0587,0.1382
+AI0531,2026-07-13,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1333,63587,14525,,0.0763,0.0508,0.1271
+AI0532,2026-07-13,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,878,50408,12075,,0.0252,0.0181,0.0433
+AI0533,2026-07-14,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1302,87398,22619,,0.1748,0.1357,0.3105
+AI0534,2026-07-14,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1111,93242,22005,,0.0746,0.055,0.1296
+AI0535,2026-07-14,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1132,63773,15764,,0.0765,0.0552,0.1317
+AI0536,2026-07-14,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,875,57085,11905,,0.0285,0.0179,0.0464
+AI0537,2026-07-15,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1178,74898,20426,,0.1498,0.1226,0.2724
+AI0538,2026-07-15,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1176,85061,24431,,0.068,0.0611,0.1291
+AI0539,2026-07-15,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1185,71699,16078,,0.086,0.0563,0.1423
+AI0540,2026-07-15,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,903,49644,12003,,0.0248,0.018,0.0428
+AI0541,2026-07-16,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1354,73298,18477,,0.1466,0.1109,0.2575
+AI0542,2026-07-16,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1151,90104,23214,,0.0721,0.058,0.1301
+AI0543,2026-07-16,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1242,63001,17304,,0.0756,0.0606,0.1362
+AI0544,2026-07-16,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,992,50736,12924,,0.0254,0.0194,0.0448
+AI0545,2026-07-17,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1224,85957,23228,,0.1719,0.1394,0.3113
+AI0546,2026-07-17,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1209,90009,24592,,0.072,0.0615,0.1335
+AI0547,2026-07-17,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,979,57628,14480,,0.0692,0.0507,0.1199
+AI0548,2026-07-17,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,867,48981,10552,,0.0245,0.0158,0.0403
+AI0549,2026-07-18,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1111,83801,26325,,0.1676,0.158,0.3256
+AI0550,2026-07-18,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1362,87035,21360,,0.0696,0.0534,0.123
+AI0551,2026-07-18,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1096,55077,15850,,0.0661,0.0555,0.1216
+AI0552,2026-07-18,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,810,49660,10463,,0.0248,0.0157,0.0405
+AI0553,2026-07-19,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1131,91070,22644,,0.1821,0.1359,0.318
+AI0554,2026-07-19,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1237,80492,23504,,0.0644,0.0588,0.1232
+AI0555,2026-07-19,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1127,68290,15986,,0.0819,0.056,0.1379
+AI0556,2026-07-19,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,776,48735,12350,,0.0244,0.0185,0.0429
+AI0557,2026-07-20,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1255,88984,24695,,0.178,0.1482,0.3262
+AI0558,2026-07-20,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1290,88152,23320,,0.0705,0.0583,0.1288
+AI0559,2026-07-20,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1374,75194,14428,,0.0902,0.0505,0.1407
+AI0560,2026-07-20,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,816,55939,10984,,0.028,0.0165,0.0445
+AI0561,2026-07-21,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1080,86499,22739,,0.173,0.1364,0.3094
+AI0562,2026-07-21,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1190,85315,20813,,0.0683,0.052,0.1203
+AI0563,2026-07-21,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1135,60426,18920,,0.0725,0.0662,0.1387
+AI0564,2026-07-21,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,926,53547,11530,,0.0268,0.0173,0.0441
+AI0565,2026-07-22,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1183,84862,17332,,0.1697,0.104,0.2737
+AI0566,2026-07-22,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1075,76963,18040,,0.0616,0.0451,0.1067
+AI0567,2026-07-22,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1092,71889,15943,,0.0863,0.0558,0.1421
+AI0568,2026-07-22,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,1016,51643,12751,,0.0258,0.0191,0.0449
+AI0569,2026-07-23,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1118,93772,23282,,0.1875,0.1397,0.3272
+AI0570,2026-07-23,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1148,94028,22996,,0.0752,0.0575,0.1327
+AI0571,2026-07-23,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1150,59161,14484,,0.071,0.0507,0.1217
+AI0572,2026-07-23,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,907,51308,11239,,0.0257,0.0169,0.0426
+AI0573,2026-07-24,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1202,94107,23088,,0.1882,0.1385,0.3267
+AI0574,2026-07-24,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1339,99194,20237,,0.0794,0.0506,0.13
+AI0575,2026-07-24,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1351,62238,17337,,0.0747,0.0607,0.1354
+AI0576,2026-07-24,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,906,48351,10264,,0.0242,0.0154,0.0396
+AI0577,2026-07-25,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1184,78772,23702,,0.1575,0.1422,0.2997
+AI0578,2026-07-25,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1336,84262,22531,,0.0674,0.0563,0.1237
+AI0579,2026-07-25,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1134,61731,16991,,0.0741,0.0595,0.1336
+AI0580,2026-07-25,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,896,56958,11537,,0.0285,0.0173,0.0458
+AI0581,2026-07-26,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1289,90701,23400,,0.1814,0.1404,0.3218
+AI0582,2026-07-26,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1159,89643,21796,,0.0717,0.0545,0.1262
+AI0583,2026-07-26,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1124,68442,16832,,0.0821,0.0589,0.141
+AI0584,2026-07-26,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,953,56147,13391,,0.0281,0.0201,0.0482
+AI0585,2026-07-27,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1166,92685,20902,,0.1854,0.1254,0.3108
+AI0586,2026-07-27,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1202,85681,24851,,0.0685,0.0621,0.1306
+AI0587,2026-07-27,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1232,63866,17527,,0.0766,0.0613,0.1379
+AI0588,2026-07-27,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,704,41943,12764,,0.021,0.0191,0.0401
+AI0589,2026-07-28,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1205,91803,19665,,0.1836,0.118,0.3016
+AI0590,2026-07-28,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1197,104425,23450,,0.0835,0.0586,0.1421
+AI0591,2026-07-28,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1215,62716,15494,,0.0753,0.0542,0.1295
+AI0592,2026-07-28,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,708,51030,12811,,0.0255,0.0192,0.0447
+AI0593,2026-07-29,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1058,85237,19962,,0.1705,0.1198,0.2903
+AI0594,2026-07-29,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1113,90385,18331,,0.0723,0.0458,0.1181
+AI0595,2026-07-29,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1255,68920,15678,,0.0827,0.0549,0.1376
+AI0596,2026-07-29,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,676,46014,13183,,0.023,0.0198,0.0428
+AI0597,2026-07-30,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,949,87497,19923,,0.175,0.1195,0.2945
+AI0598,2026-07-30,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1272,85139,22710,,0.0681,0.0568,0.1249
+AI0599,2026-07-30,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1250,74548,15740,,0.0895,0.0551,0.1446
+AI0600,2026-07-30,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,933,44059,13142,,0.022,0.0197,0.0417
+AI0601,2026-07-31,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1131,85962,21960,,0.1719,0.1318,0.3037
+AI0602,2026-07-31,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1059,91647,23702,,0.0733,0.0593,0.1326
+AI0603,2026-07-31,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1226,56737,15841,,0.0681,0.0554,0.1235
+AI0604,2026-07-31,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,966,42488,10968,,0.0212,0.0165,0.0377
+AI0605,2026-08-01,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1278,91944,22725,,0.1839,0.1363,0.3202
+AI0606,2026-08-01,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1367,93373,23157,,0.0747,0.0579,0.1326
+AI0607,2026-08-01,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1443,63888,14978,,0.0767,0.0524,0.1291
+AI0608,2026-08-01,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,938,51755,11494,,0.0259,0.0172,0.0431
+AI0609,2026-08-02,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1107,106630,22575,,0.2133,0.1355,0.3488
+AI0610,2026-08-02,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1134,96594,21807,,0.0773,0.0545,0.1318
+AI0611,2026-08-02,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1177,67923,14346,,0.0815,0.0502,0.1317
+AI0612,2026-08-02,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,931,57651,12447,,0.0288,0.0187,0.0475
+AI0613,2026-08-03,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1166,86348,21277,,0.1727,0.1277,0.3004
+AI0614,2026-08-03,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1177,87279,23612,,0.0698,0.059,0.1288
+AI0615,2026-08-03,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1044,69482,15514,,0.0834,0.0543,0.1377
+AI0616,2026-08-03,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,933,45492,13275,,0.0227,0.0199,0.0426
+AI0617,2026-08-04,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1312,96909,19334,,0.1938,0.116,0.3098
+AI0618,2026-08-04,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1274,92914,19174,,0.0743,0.0479,0.1222
+AI0619,2026-08-04,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1197,66895,16711,,0.0803,0.0585,0.1388
+AI0620,2026-08-04,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,915,51164,13414,,0.0256,0.0201,0.0457
+AI0621,2026-08-05,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1310,69357,21441,,0.1387,0.1286,0.2673
+AI0622,2026-08-05,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1185,77384,22165,,0.0619,0.0554,0.1173
+AI0623,2026-08-05,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1312,59349,16430,,0.0712,0.0575,0.1287
+AI0624,2026-08-05,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,817,47312,13418,,0.0237,0.0201,0.0438
+AI0625,2026-08-06,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1151,93327,18706,,0.1867,0.1122,0.2989
+AI0626,2026-08-06,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1367,94339,21678,,0.0755,0.0542,0.1297
+AI0627,2026-08-06,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1251,57668,17513,,0.0692,0.0613,0.1305
+AI0628,2026-08-06,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,870,49183,11528,,0.0246,0.0173,0.0419
+AI0629,2026-08-07,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1147,95001,22450,,0.19,0.1347,0.3247
+AI0630,2026-08-07,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1258,89936,22903,,0.0719,0.0573,0.1292
+AI0631,2026-08-07,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1162,76594,13993,,0.0919,0.049,0.1409
+AI0632,2026-08-07,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,1013,55471,11181,,0.0277,0.0168,0.0445
+AI0633,2026-08-08,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1400,97167,23709,,0.1943,0.1423,0.3366
+AI0634,2026-08-08,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1202,88435,21631,,0.0707,0.0541,0.1248
+AI0635,2026-08-08,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1235,72286,16232,,0.0867,0.0568,0.1435
+AI0636,2026-08-08,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,817,53297,12884,,0.0266,0.0193,0.0459
+AI0637,2026-08-09,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1258,95367,21523,,0.1907,0.1291,0.3198
+AI0638,2026-08-09,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1116,83749,19121,,0.067,0.0478,0.1148
+AI0639,2026-08-09,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1221,64566,15436,,0.0775,0.054,0.1315
+AI0640,2026-08-09,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,633,45010,13076,,0.0225,0.0196,0.0421
+AI0641,2026-08-10,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1140,92596,19552,,0.1852,0.1173,0.3025
+AI0642,2026-08-10,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1329,88963,22510,,0.0712,0.0563,0.1275
+AI0643,2026-08-10,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1409,72885,15607,,0.0875,0.0546,0.1421
+AI0644,2026-08-10,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,846,48697,12489,,0.0243,0.0187,0.043
+AI0645,2026-08-11,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1190,87154,24582,,0.1743,0.1475,0.3218
+AI0646,2026-08-11,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1189,106557,22159,,0.0852,0.0554,0.1406
+AI0647,2026-08-11,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1360,66858,17232,,0.0802,0.0603,0.1405
+AI0648,2026-08-11,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,834,46584,12441,,0.0233,0.0187,0.042
+AI0649,2026-08-12,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1288,90289,19735,,0.1806,0.1184,0.299
+AI0650,2026-08-12,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1077,79724,18888,,0.0638,0.0472,0.111
+AI0651,2026-08-12,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1209,70850,15982,,0.085,0.0559,0.1409
+AI0652,2026-08-12,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,696,49236,11843,,0.0246,0.0178,0.0424
+AI0653,2026-08-13,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1388,79508,21312,,0.159,0.1279,0.2869
+AI0654,2026-08-13,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1353,93239,22991,,0.0746,0.0575,0.1321
+AI0655,2026-08-13,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1210,66715,16995,,0.0801,0.0595,0.1396
+AI0656,2026-08-13,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,827,53512,10681,,0.0268,0.016,0.0428
+AI0657,2026-08-14,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1229,91286,20915,,0.1826,0.1255,0.3081
+AI0658,2026-08-14,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1197,85517,20113,,0.0684,0.0503,0.1187
+AI0659,2026-08-14,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1168,59259,16413,,0.0711,0.0574,0.1285
+AI0660,2026-08-14,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,796,52847,10865,,0.0264,0.0163,0.0427
+AI0661,2026-08-15,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1149,85502,24332,,0.171,0.146,0.317
+AI0662,2026-08-15,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1229,88475,22877,,0.0708,0.0572,0.128
+AI0663,2026-08-15,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1010,64775,18556,,0.0777,0.0649,0.1426
+AI0664,2026-08-15,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,911,50271,12526,,0.0251,0.0188,0.0439
+AI0665,2026-08-16,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1280,75618,19039,,0.1512,0.1142,0.2654
+AI0666,2026-08-16,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1218,84852,24309,,0.0679,0.0608,0.1287
+AI0667,2026-08-16,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1171,54940,14376,,0.0659,0.0503,0.1162
+AI0668,2026-08-16,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,652,49063,11819,,0.0245,0.0177,0.0422
+AI0669,2026-08-17,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1161,97767,24109,,0.1955,0.1447,0.3402
+AI0670,2026-08-17,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1184,74630,23086,,0.0597,0.0577,0.1174
+AI0671,2026-08-17,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1249,66608,17256,,0.0799,0.0604,0.1403
+AI0672,2026-08-17,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,795,58035,11078,,0.029,0.0166,0.0456
+AI0673,2026-08-18,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,5000,450000,110000,,0.9,0.66,1.56
+AI0674,2026-08-18,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,5000,450000,110000,,0.36,0.275,0.635
+AI0675,2026-08-18,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1221,64454,17745,,0.0773,0.0621,0.1394
+AI0676,2026-08-18,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,878,42877,11228,,0.0214,0.0168,0.0382
+AI0677,2026-08-19,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1249,92847,19241,,0.1857,0.1154,0.3011
+AI0678,2026-08-19,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1134,85811,21356,,0.0686,0.0534,0.122
+AI0679,2026-08-19,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1076,61732,15067,,0.0741,0.0527,0.1268
+AI0680,2026-08-19,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,969,53236,11860,,0.0266,0.0178,0.0444
+AI0681,2026-08-20,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1164,91007,20562,,0.182,0.1234,0.3054
+AI0682,2026-08-20,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1096,83230,20882,,0.0666,0.0522,0.1188
+AI0683,2026-08-20,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1095,65842,16934,,0.079,0.0593,0.1383
+AI0684,2026-08-20,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,757,50100,11788,,0.025,0.0177,0.0427
+AI0685,2026-08-21,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1230,89906,19441,,0.1798,0.1166,0.2964
+AI0686,2026-08-21,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1086,90211,23810,,0.0722,0.0595,0.1317
+AI0687,2026-08-21,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1000,66797,17522,,0.0802,0.0613,0.1415
+AI0688,2026-08-21,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,886,52200,11325,,0.0261,0.017,0.0431
+AI0689,2026-08-22,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1189,78329,17873,,0.1567,0.1072,0.2639
+AI0690,2026-08-22,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1284,82908,21198,,0.0663,0.053,0.1193
+AI0691,2026-08-22,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1075,57668,15777,,0.0692,0.0552,0.1244
+AI0692,2026-08-22,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,834,51511,12434,,0.0258,0.0187,0.0445
+AI0693,2026-08-23,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1228,91717,24776,,0.1834,0.1487,0.3321
+AI0694,2026-08-23,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1103,89604,23993,,0.0717,0.06,0.1317
+AI0695,2026-08-23,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1313,57606,15600,,0.0691,0.0546,0.1237
+AI0696,2026-08-23,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,1022,52032,12187,,0.026,0.0183,0.0443
+AI0697,2026-08-24,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1180,87236,22507,,0.1745,0.135,0.3095
+AI0698,2026-08-24,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1177,89693,22138,,0.0718,0.0553,0.1271
+AI0699,2026-08-24,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1138,67767,19730,,0.0813,0.0691,0.1504
+AI0700,2026-08-24,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,740,51296,11270,,0.0256,0.0169,0.0425
+AI0701,2026-08-25,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1251,90335,23340,,0.1807,0.14,0.3207
+AI0702,2026-08-25,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1305,91385,23992,,0.0731,0.06,0.1331
+AI0703,2026-08-25,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,989,73270,16480,,0.0879,0.0577,0.1456
+AI0704,2026-08-25,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,997,45120,11202,,0.0226,0.0168,0.0394
+AI0705,2026-08-26,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1213,89877,22498,,0.1798,0.135,0.3148
+AI0706,2026-08-26,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1297,77290,23713,,0.0618,0.0593,0.1211
+AI0707,2026-08-26,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1200,63940,14116,,0.0767,0.0494,0.1261
+AI0708,2026-08-26,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,945,40343,12622,,0.0202,0.0189,0.0391
+AI0709,2026-08-27,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1065,90384,21790,,0.1808,0.1307,0.3115
+AI0710,2026-08-27,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1305,88713,20778,,0.071,0.0519,0.1229
+AI0711,2026-08-27,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1154,71618,16686,,0.0859,0.0584,0.1443
+AI0712,2026-08-27,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,865,49054,10495,,0.0245,0.0157,0.0402
+AI0713,2026-08-28,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1234,77329,23323,,0.1547,0.1399,0.2946
+AI0714,2026-08-28,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1211,107186,20063,,0.0857,0.0502,0.1359
+AI0715,2026-08-28,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1190,74351,17524,,0.0892,0.0613,0.1505
+AI0716,2026-08-28,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,837,50895,12001,,0.0254,0.018,0.0434
+AI0717,2026-08-29,AI Platform,ai,LLM API,model-a-api,AI Team,global,,Model-A,,,1225,84969,21842,,0.1699,0.1311,0.301
+AI0718,2026-08-29,AI Platform,ai,LLM API,model-b-api,AI Team,global,,Model-B,,,1056,90972,22792,,0.0728,0.057,0.1298
+AI0719,2026-08-29,AI Platform,ai,LLM API,model-c-api,Product Team,global,,Model-C,,,1179,56601,17265,,0.0679,0.0604,0.1283
+AI0720,2026-08-29,AI Platform,ai,LLM API,model-d-api,Support Team,global,,Model-D,,,932,47095,11730,,0.0235,0.0176,0.0411
